@@ -12,6 +12,24 @@ code {
     monospace;
 }
 
+.price{
+  text-indent: 4%;
+  font-weight: 450;
+}
+
+.area{
+  font-weight: bold;
+}
+
+.card-content .type, .card-content .area{
+  padding-bottom: 10px;
+}
+
+.card-content{
+  margin-top: -5%;
+  font-size: 11px;
+}
+
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
